@@ -2,7 +2,7 @@
 
 from machine import Pin, SPI#, reset
 # Developing on 1.24
-from cameraPI import Camera, FileManager
+from camera_Pi3 import Camera, FileManager
 from utime import sleep_ms, ticks_ms, ticks_diff
 import uos
 import _thread  # Para ejecutar operaciones en paralelo
